@@ -1,0 +1,319 @@
+* {
+  font-family: 'Kaushan Script', cursive;
+}
+.header-color {
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Kaushan Script', cursive;
+}
+
+.landing-grid {
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Kaushan Script', cursive;
+}
+
+.jagdeep-image {
+  height:450px;
+  width:400px;
+  border-radius:50%;
+  margin-left:460px;
+  animation:animate 5s ease-in-out;
+}
+@keyframes animate {
+  0% {
+    opacity:0.2;
+  }
+  25% {
+    opacity:0.5;
+  }
+  50% {
+    opacity:0.7;
+  }
+  75% {
+    opacity:0.9;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.banner-text {
+  background-color:black;
+  opacity:0.8;
+  margin:auto;
+  width:85%;
+  margin-top:35px;
+  border-radius:10px;
+}
+
+.banner-text h1 {
+  color:whitesmoke;
+  font-size:66px;
+  font-weight:bold;
+  text-align:center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.banner-text hr {
+  border-top:5px dotted white;
+  width:50%;
+  margin:auto;
+}
+
+.banner-text p {
+  font-family: 'Playfair Display SC', serif;
+  color:white;
+  font-size:20px;
+  padding:1em;
+  text-align:center;
+}
+
+.p1 {
+  font-size:28px;
+}
+
+
+  .card-grid {
+    width:84%;
+    display:flex;
+    flex-direction: column;
+  }
+  .card-text {
+    font-size:10px;
+  }
+  .contact-body {
+    margin:auto;
+    background:grey;
+    position:fixed;
+    width:84%;
+    /* height:100%; */
+    justify-content: center;
+    /* padding-top:2em; */
+  }
+  .contact-img {
+    width:200px;
+    height:50px;
+    border-radius:5px;
+  }
+
+.projects-grid {
+  display:flex;
+  flex-direction: row;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact-body {
+  margin:auto;
+  background:grey;
+  position:fixed;
+  width:100%;
+  height:100%;
+  justify-content: center;
+  padding-top:2em;
+}
+
+.about-body {
+  margin:auto;
+  background:linear-gradient(to right, purple, slateblue, purple);
+  position:fixed;
+  width:100%;
+  height:100%;
+  justify-content: center;
+  padding:2em;
+  
+}
+.about-cell {
+  margin:auto;
+  background:white;
+  position:fixed;
+  border-radius:25px;
+  justify-content: center;
+  padding-top:2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width:80%;
+  height:650px;
+  background:white;
+  color:black;
+  border:2px dashed #1c029e;
+  margin-bottom:20px;
+  border-radius:25px;
+}
+
+.contact-grid hr {
+  border-top:5px dotted black;
+  width:50%;
+  margin:auto;
+}
+
+.resume-right-col {
+  background:#27221F;
+  color:white;
+  padding:2em;
+  border-radius:25px;
+}
+
+.contact-list i{
+  font-size:66px;
+  padding-right:3rem;
+  margin-left:430px;
+}
+
+
+.social-links {
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.social-links i {
+  color:white;
+  font-size:10em;
+  padding:18px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .contact-image {
+    display:none;
+  }
+  .contact-list {
+    font-size:25px;
+    margin:auto;
+    margin-top:70px;
+  }
+  .contact-phone, .contact-email, .contact-linkedin, .contact-github, .contact-contact {
+    display:none;
+  }
+  .contact-name {
+    font-size:30px;
+  }
+  .contact-body {
+    width:520px;
+    margin:auto;
+  }
+  .contact-number {
+    font-size:4px;
+  }
+  .contactContact, .contactEmail {
+    font-family:'sans-serif';
+    font-size:15px;
+  }
+  .contactGithub {
+    font-size:15px;
+    font-family:'sans-serif';
+  }
+  .contactLinkedin {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px){
+  .contact-list {
+    font-size:25px;
+    margin:auto;
+    margin-top:170px;
+    margin-left:40px;
+  }
+  .contact-phone, .contact-email, .contact-linkedin, .contact-github {
+    display: none;
+  }
+  .contact-name {
+    font-size:40px;
+  }
+  .contact-body {
+    width:900px;
+    margin:auto;
+  }
+  .contact-number {
+    font-size:4px;
+  }
+  .contactContact, .contactEmail {
+    font-size:20px;
+  }
+  .contactGithub, .contactLinkedin {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jagdeep-image {
+    height:350px;
+    width:300px;
+    margin-left:80px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  .jagdeep-image {
+    margin-left:220px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jagdeep-resumeImage {
+    margin-left:100px;
+  }
+  .resume-name {
+    margin-left:130px;
+  }
+  .resume-type, .resume-hr{
+    margin-left:150px;
+  }
+  .resume-aboutJagdeep {
+    width:100%;
+    margin-left:90px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-style {
+    font-size:20px;
+  }
+  .skills-backend {
+    margin-left:100px;
+  }
+  .skills-database {
+    margin-top:50px;
+  }
+  .skills-language {
+    margin-left:100px;
+    margin-top:1px;
+  }
+  .resume-achievements, .resume-education, .resume-skills {
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  .skills-backend, .skills-database, .skills-language {
+    margin-left:5px;
+  }
+  .skills-style {
+    font-size:20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-tab {
+    margin-top:50px;
+  }
+  .jagdeep-image {
+    margin-left:30px;
+  }
+  .landing-title {
+    font-size:20px;
+  }
+  .card-grid {
+    width: 100px;
+    height:200px;
+    padding:10px;
+  }
+}
